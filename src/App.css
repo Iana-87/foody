@@ -61,5 +61,10 @@ video {
     border: none;
     background-color: #D6BD98;
     }
-
+    @media only screen and (max-width: 600px) {
+      video{
+        max-width: 100%;
+        height: auto;
+      }
+    }
     
